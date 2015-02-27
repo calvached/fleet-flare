@@ -1,0 +1,13 @@
+{
+  "framework": "jasmine",
+  "launch_in_ci": ["PhantomJS"],
+  "before_tests": "grunt runTests",
+  "src_files": [
+    "bower_components/jquery/jquery.js",
+    "bower_components/underscore/underscore.js",
+    "bower_components/jasmine-jquery/lib/jasmine-jquery.js",
+    "namespace/namespace.js",
+    ".tmp/lib/flash_message.js",
+    ".tmp/spec/*.js"
+  ]
+}

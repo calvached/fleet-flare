@@ -1,0 +1,20 @@
+{
+  "name": "fleet_flare",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt":                "~0.4.5",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-copy":   "~0.4.0",
+    "grunt-contrib-coffee": "^0.11.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-clean":  "~0.5.0",
+    "load-grunt-tasks":     "~0.1.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "spec": "testem"
+  }
+}
