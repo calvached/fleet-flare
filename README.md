@@ -11,9 +11,9 @@ Example:
 `<script src="bower_components/fleet-flare/dist/fleet_flare.min.js"></script>`
 
 To create messages:  
-`FlashMessage.Handler.showWinMessage`
-`FlashMessage.Handler.showLoseMessage`
-`FlashMessage.Handler.showErrorMessage("Message")`
+`FlashMessage.Handler.showWinMessage`  
+`FlashMessage.Handler.showLoseMessage`  
+`FlashMessage.Handler.showErrorMessage("Message")`  
 ## How to run the test suite
 Clone the project and execute:  
 `bower install` and `npm install`
