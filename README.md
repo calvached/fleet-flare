@@ -26,3 +26,6 @@ Then navigate to the root directory and execute:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+Fleet Flare is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
