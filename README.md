@@ -1,21 +1,25 @@
 # Fleet Flare
-The Flash Message library for Battleship warfare :boom:
-
+The Flash Message library for Battleship warfare :boom:  
+Current working version: 1.0.3
+## Note
+There is a hard dependency for the msgElem.
 ## Install
 `bower install fleet-flare`
-
-## How to run the test suite
-Navigate to the root directory and execute:  
-```
-testem
-```
-
 ## Usage Instructions
-[Coming Soon]
+Include the fleet-flare.js or fleet-flare.min.js file in the vender script section in your index.html.  
+Example:  
+`<script src="bower_components/fleet-flare/dist/fleet_flare.min.js"></script>`
 
-## Examples
-[Coming Soon]
+To create messages:  
+`FlashMessage.Handler.showWinMessage`
+`FlashMessage.Handler.showLoseMessage`
+`FlashMessage.Handler.showErrorMessage("Message")`
+## How to run the test suite
+Clone the project and execute:  
+`bower install` and `npm install`
 
+Then navigate to the root directory and execute:  
+`testem`
 ## Contributing
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
