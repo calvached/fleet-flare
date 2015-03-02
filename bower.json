@@ -1,8 +1,8 @@
 {
   "name": "fleet_flare",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
-    "jquery": "~2.0.3"
+    "jquery": "~2.1.0"
   },
   "devDependencies": {
     "jasmine-jquery": "~1.5.8"
